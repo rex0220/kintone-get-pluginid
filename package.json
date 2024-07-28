@@ -1,0 +1,33 @@
+{
+  "name": "kintone-get-pluginid",
+  "version": "1.0.0",
+  "description": "A tool to generate plugin IDs for Kintone plugins from private keys.",
+  "main": "get-plugin.js",
+  "bin": {
+    "kintone-get-pluginid": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rex0220",
+  "license": "MIT",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rex0220/kintone-get-pluginid.git"
+  },
+  "keywords": [
+    "kintone",
+    "plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/rex0220/kintone-get-pluginid/issues"
+  },
+  "homepage": "https://github.com/rex0220/kintone-get-pluginid#readme",
+  "dependencies": {
+    "yargs": "^17.3.1",
+    "node-rsa": "^1.1.1"
+  }
+}
