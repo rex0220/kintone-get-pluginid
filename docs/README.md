@@ -58,7 +58,7 @@ Contributions are welcome! Please open an issue or submit a pull request on GitH
 
 ## Author
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
+rex0220 - [rex0220@gmail.com](mailto:rex0220@gmail.com)
 
 ## Repository
 
