@@ -1,6 +1,6 @@
 {
   "name": "@rex0220/kintone-get-pluginid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A tool to generate plugin IDs for Kintone plugins from private keys.",
   "main": "get-plugin.js",
   "bin": {

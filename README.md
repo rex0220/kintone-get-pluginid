@@ -7,9 +7,9 @@ A tool to generate plugin IDs for Kintone plugins from private keys.
 
 You can install this package globally using npm:
 
-\`\`\`bash
+```bash
 npm install -g @rex0220/kintone-get-pluginid
-\`\`\`
+```
 
 ## Usage
 
@@ -17,9 +17,9 @@ To generate a plugin ID from a private key, you can use the command line tool \`
 
 ### Basic Usage
 
-\`\`\`bash
+```bash
 rex0220-get-pluginid -i path/to/your/private_key.pem
-\`\`\`
+```
 
 This command will generate a plugin ID and print it to the console.
 
@@ -27,9 +27,9 @@ This command will generate a plugin ID and print it to the console.
 
 To output the plugin ID to a file, use the \`--out\` or \`-o\` option:
 
-\`\`\`bash
+```bash
 rex0220-get-pluginid -i path/to/your/private_key.pem -o path/to/output_file.txt
-\`\`\`
+```
 
 This will write the generated plugin ID to the specified file.
 
@@ -40,9 +40,9 @@ This will write the generated plugin ID to the specified file.
 
 ## Example
 
-\`\`\`bash
+```bash
 rex0220-get-pluginid -i my_private_key.pem -o plugin_id.txt
-\`\`\`
+```
 
 ## License
 
