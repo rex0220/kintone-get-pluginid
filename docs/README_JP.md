@@ -8,17 +8,17 @@
 このパッケージをグローバルにインストールするには、npmを使用します：
 
 \`\`\`bash
-npm install -g kintone-get-pluginid
+npm install -g @rex0220/kintone-get-pluginid
 \`\`\`
 
 ## 使用方法
 
-秘密鍵からプラグインIDを生成するには、コマンドラインツール\`kintone-get-pluginid\`を使用します。
+秘密鍵からプラグインIDを生成するには、コマンドラインツール\`rex0220-get-pluginid\`を使用します。
 
 ### 基本的な使用方法
 
 \`\`\`bash
-kintone-get-pluginid -i path/to/your/private_key.pem
+rex0220-get-pluginid -i path/to/your/private_key.pem
 \`\`\`
 
 このコマンドはプラグインIDを生成し、コンソールに出力します。
@@ -28,7 +28,7 @@ kintone-get-pluginid -i path/to/your/private_key.pem
 プラグインIDをファイルに出力するには、\`--out\`または\`-o\`オプションを使用します：
 
 \`\`\`bash
-kintone-get-pluginid -i path/to/your/private_key.pem -o path/to/output_file.txt
+rex0220-get-pluginid -i path/to/your/private_key.pem -o path/to/output_file.txt
 \`\`\`
 
 これにより、指定されたファイルに生成されたプラグインIDが書き込まれます。
@@ -41,7 +41,7 @@ kintone-get-pluginid -i path/to/your/private_key.pem -o path/to/output_file.txt
 ## 例
 
 \`\`\`bash
-kintone-get-pluginid -i my_private_key.pem -o plugin_id.txt
+rex0220-get-pluginid -i my_private_key.pem -o plugin_id.txt
 \`\`\`
 
 ## ライセンス
