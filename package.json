@@ -7,9 +7,9 @@
     "kintone-get-pluginid": "bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "rex0220-get-pluginid"
   },
-  "author": "rex0220",
+  "author": "rex0220 <rex0220@gmail.com>",
   "license": "MIT",
   "directories": {
     "doc": "docs"
