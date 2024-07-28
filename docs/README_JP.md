@@ -58,7 +58,7 @@ kintone-get-pluginid -i my_private_key.pem -o plugin_id.txt
 
 ## 作者
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
+rex0220 - [rex0220@gmail.com](mailto:rex0220@gmail.com)
 
 ## リポジトリ
 
